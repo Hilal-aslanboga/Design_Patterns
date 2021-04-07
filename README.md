@@ -12,6 +12,8 @@ Yaratıcı tasarım kalıpları, duruma uygun bir şekilde nesneler yaratmaya ç
 
 ## Structural Patterns - Yapısal Desenler
 
+Yapısal Tasarım Modelleri, varlıklar arasındaki ilişkileri gerçekleştirmenin basit bir yolunu belirleyerek tasarımı kolaylaştıran Tasarım Modelleridir.
+
 ### Adapter
 
 ### Bridge
@@ -19,6 +21,8 @@ Yaratıcı tasarım kalıpları, duruma uygun bir şekilde nesneler yaratmaya ç
 ### Decorator
 
 ## Behavioral Patterns - Davranış Desenler
+
+Davranışsal tasarım kalıpları, nesneler arasındaki ortak iletişim kalıplarını tanımlayan ve bu kalıpları gerçekleştiren tasarım kalıplarıdır. Bunu yaparak, bu modeller bu iletişimin gerçekleştirilmesindeki esnekliği artırır.
 
 ### ChainofResponsibility
 
