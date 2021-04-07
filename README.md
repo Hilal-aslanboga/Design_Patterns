@@ -56,21 +56,25 @@ Davranışsal tasarım kalıpları, nesneler arasındaki ortak iletişim kalıpl
 
 ### [ChainofResponsibility](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/ChainofResponsibility)
 
-
+Chain of Responsibility Tasarım Deseni, kod karmaşasını önlemek amacıyla oluşturulmuştur. Bir işlemi yapabilecek birden fazla sınıftan hangisinin yapacağına karar veren tasarım desenidir. Projelerimizde birden fazla koşullu metotlar yazmak istediğimizde her koşul için if else blokları açılır ve ilgili metotlar çalıştırılmaktadır. Bu yapıyı if else blokları yerine chain of responsbility ( sorumluluk zinciri ) tasarım desenini kullanılır.
+Bu tasarım deseninde 3 ana yapı vardır.
+Handler : Kendisinden türeyecek ConcreteHandler’ ların, işleyebilmesi için gerekli olan arayüzdür. Abstract class yada Interface şeklinde tanımlanabilir.
+ConcreteHandler : Gelen isteğe cevap verebilecek gerekirse isteği kendisinden sonra gelen nesneye iletir.
+Client : Zinciri oluşturan ve zincirin ilk halkasına isteği gönderen nesnedir.
 
 ![Chainofresponsibility](https://user-images.githubusercontent.com/79503027/113909359-41f55e00-97e0-11eb-89a5-0e50131f8c40.png)
 
 
 ### [Mediator](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/Mediator)
 
-
+Mediator Tasarım Deseni, birçok bileşenin birbirinden servis kullandığı ve bu servis kullanımlarından dolayı bağımlılıkların çok arttığı durumlarda bu bağımlılıkları merkeze taşıyarak bağımlılık kaosunu çözen bir yaklaşımdır.
 
 ![Mediator](https://user-images.githubusercontent.com/79503027/113909380-4752a880-97e0-11eb-8ad1-06da7b6fa2c8.png)
 
 
 ### [Observer](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/Observer)
 
-
+Observer Tasarım Deseni, nesneler arasında one-to-many ilişkisi olduğu durumlarda tercih edilen bir desendir. Yani bir nesnede olan herhangi bir değişiklik, bu nesneye bağımlı diğer nesneleri de etkiliyorsa bu desen kullanılır. 
 
 ![Observer](https://user-images.githubusercontent.com/79503027/113909389-4ae62f80-97e0-11eb-9124-5d782136288f.png)
 
