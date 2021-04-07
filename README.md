@@ -6,28 +6,28 @@ Bir tasarım deseni, yazılım tasarımında yaygın olarak ortaya çıkan bir s
 
 Yaratıcı tasarım kalıpları, duruma uygun bir şekilde nesneler yaratmaya çalışan, nesne oluşturma mekanizmalarıyla ilgilenen tasarım kalıplarıdır. Temel nesne oluşturma biçimi, tasarım sorunlarına veya tasarıma ek karmaşıklıklara neden olabilir. Yaratıcı tasarım kalıpları, bu nesne oluşumunu bir şekilde kontrol ederek bu sorunu çözer.
 
-### Builder
+### [Builder](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/Builder)
 
-### Factory
+### [Factory](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/FactoryMethod)
 
-### Singleton
+### [Singleton](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/Singleton)
 
 ## Structural Patterns - Yapısal Desenler
 
 Yapısal Tasarım Modelleri, varlıklar arasındaki ilişkileri gerçekleştirmenin basit bir yolunu belirleyerek tasarımı kolaylaştıran Tasarım Modelleridir.
 
-### Adapter
+### [Adapter](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Structural_Patterns/Adapter)
 
-### Bridge
+### [Bridge](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Structural_Patterns/Bridge)
 
-### Decorator
+### [Decorator](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Structural_Patterns/Decorator)
 
 ## Behavioral Patterns - Davranış Desenler
 
 Davranışsal tasarım kalıpları, nesneler arasındaki ortak iletişim kalıplarını tanımlayan ve bu kalıpları gerçekleştiren tasarım kalıplarıdır. Bunu yaparak, bu modeller bu iletişimin gerçekleştirilmesindeki esnekliği artırır.
 
-### ChainofResponsibility
+### [ChainofResponsibility](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/ChainofResponsibility)
 
-### Mediator
+### [Mediator](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/Mediator)
 
-### Observer
+### [Observer](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/Observer)
