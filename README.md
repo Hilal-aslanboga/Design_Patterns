@@ -8,15 +8,21 @@ Yaratıcı tasarım kalıpları, duruma uygun bir şekilde nesneler yaratmaya ç
 
 ### [Builder](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/Builder)
 
+Bu tasarım şablonu, bir nesnenin oluşum aşamasında farklı nesnelere de ihtiyaç olduğu durumlarda kullanılır. Yani karmaşık yapıdaki bir nesne, değişik özelliklerin(nesnelerin) bir araya gelmesiyle oluşur. Birden fazla adım barındıran nesne üretim sürecinde, farklı parçalar birleştirilir ve istenilen tipteki nesne oluşturulmuş olur.
+
 ![Builder](https://user-images.githubusercontent.com/79503027/113909215-1b372780-97e0-11eb-8294-52f55f9daa9c.png)
 
 
 ### [Factory](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/FactoryMethod)
 
+Factory tasarım deseni,creational tasarım desenlerinden biridir. Bu tasarım deseni bir nesne yaratmak için arayüz sağlar ve hangi sınıftan nesne yaratılacağını alt sınıfların belirlemesine olanak tanır. Asıl amaç oluşturmak istediğimiz sınıfların tek tek instance oluşturmak yerine bu oluşturma işlemini tek bir sınıf üzerinden yönetmek.
+
 ![Factory](https://user-images.githubusercontent.com/79503027/113909244-21c59f00-97e0-11eb-98de-ffb475765891.png)
 
 
 ### [Singleton](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/Singleton)
+
+Singleton(tek nesne) tasarım kalıbı, bir sınıfın tek bir örneğini almak için kullanılır.Amaç oluşturulan nesneye global erişim noktası sağlamaktır.Sistem çalıştığı sürece ikinci bir örnek oluşturulmaz, böylelikle istenen nesnenin tek bir defa oluşturulması garanti altına alınacaktır.Singleton nesneler ilk çağırıldıklarında bir kere oluşturulurlar ve sonraki istekler bu nesne üzerinden karşılanır.
 
 ![Singleton](https://user-images.githubusercontent.com/79503027/113908748-8f250000-97df-11eb-8c6c-2d9858345fe6.png)
 
