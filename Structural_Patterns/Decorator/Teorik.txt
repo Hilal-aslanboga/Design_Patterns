@@ -1,0 +1,6 @@
+﻿
+Decorator Pattern (Dekoratör Deseni)
+
+Bu desende tek bir amaç vardır, dinamik olarak nesnenin yapısını değiştirmek yani nesneye yeni tutum ve davranış eklemek için kullanılmaktadır. Nesneyi dekore etme diyebiliriz. Bu açıdan ilgili pattern düşünürsek gelişen yada dinamik ihtiyaçları olan bir uyguklama için faydalı bir modeldir. Dekaratörün en önemli noktası nesnenin orijinal halinin bozulmamasıdır.
+
+Bu desenin temel yeteneği sınıflara yeni davranışlar eklemektir. Bu genişleme için kalıtım kullanılabilinir.

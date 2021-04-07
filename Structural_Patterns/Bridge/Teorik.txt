@@ -1,0 +1,4 @@
+﻿
+Bridge Pattern (Köprü Deseni)
+
+Köprü, bir soyutlama yapısını alt sınıflarından ayırmak için kullanılan bir desendir. Böylelikle alt sınıflar ile üst sınıflar bağımsız olarak değiştirilebilinsin. Bu desen somut sınıfların işlevselliğini arabirim uygulayıcı sınınflarından bağımsız kılan bir köprü görevi gören bir ara birim içerir. Her iki sınıf türüde birbirini etkilemeden yapısı (structure) değiştirilebilinir.

@@ -1,0 +1,8 @@
+﻿
+Factory Pattern (Fabrika Deseni)
+
+Bu desen nesne oluşturma ili ilgili yaratıcı bir tasarım modelidir. Factory modelinin mantığı, nesneyi yaratmak isteyen istemcinin ortak ara birim kullanmasıyla nesnelerin oluşturulmasıdır.
+
+Bu pattern'da nesne oluşturmak içn bir ara birim (injector) tanımlanır, ancak alt sınıfların hangi sınıfı başlatacağına karar vermesine izin verilir. Factory method pattern bir sınıfın alt sınıflara örnek oluşturmayı ertelemesini sağlar. Diğer tasarım kalıpları yeni sınıflar gerektirirken Factory method yöntemi yalnızca yeni bir işle gerektirir. 
+
+Bu pattern yazılımda değişimi kontrol altında tutumak için kullanılır. 

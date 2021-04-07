@@ -1,0 +1,5 @@
+﻿
+Mediator Pattern (Arabulucu Deseni)
+
+Bu desen, bir dizi nesnenin türevleri ile nasıl etkileşime girdiğini kontrol eden bir nesneyi tanımlar. Meslektaş (Colleage) nesneler arasında gevşek bağlantı temin etmek için kullanılır, yani meslektaşların kendi aralarında değil bir aracı sınıf üzerinden iletişime geçmelerini temin eder. Böylelikle loose couple bir ilişki temin edilir.
+Bu desene verilebilecek en güzel örnek uçakların kontrol merkezi ile olan ilişlileridir. Uçaklar kendi aralarında iletişime geçmezler, lakin ortada bir koordinasyon olmalıki hava limanındaki düzen temin edilsin. Bu bağlamda kontorl merkezi kullanılır. Uçaklar bu desendeli colleage yani meslaktaşlardır, nasıl iletişime geçtiklerini kontrol eden nesne ise kontrol merkezidir. 

@@ -1,0 +1,6 @@
+﻿
+Builder Pattern (Oluşturucu Deseni)
+
+Bu desen, karmaşık nesneleri özelliklerinden ayırarak yada gerçek yapısından ayırarak onun aynı yapım sürecinde farklı temsilcilerinin oluşturulmasına yardımcı olmaktadır.
+
+Bu modele en güzel örnek fastfood restorantlardır. Bu restorantlarda farklı menu temsilcileri yani prototipleri vardır. Lakin her menu içerisinde standart yapılar bulunmaktadır yani Hamburger + Patates Kızartması + İçecek gibi. Bu örnekte verdiğimiz temsilcilerden farklı ürünler yani menüler ürettiğimizde kullanabileceğimiz bir desendir. Yani bir müşteri cheaseburger, tavuk yada et burger siparişi verebilir ve bu süreçte tezgahta çalışan kişinin yapacağı şey ise standart prosedür yanında gerekli ek özellikleri kullanarak nesneyi yani burger'i build etmesidir.

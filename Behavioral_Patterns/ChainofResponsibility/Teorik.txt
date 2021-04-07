@@ -1,0 +1,5 @@
+﻿
+The Chain of Responsibility Pattern (Sorumluluk Zinciri Deseni)
+
+Bu desen gelen bir isteği işlemeye (handle) yada oluşturulan sorumluluk zincirinde bir sonraki handler'a devretmeye dayanan bir prenbi bulunmaktadır. Bir online sipariş sisteminde, sisteme erişimi ksıtlamak istediğinizi varsayalım, böylece kimlik doğrulama sisteminiz var ve kimliği doğrulanmış kullanıcı sipariş oluşturabilir yada rolü ve yetkileri doğrultusunda işlem yapabilir lakin ilgili kullanıcıya diğer kullanıcının siparişlerine erişemez vb erişim sistemlerinde kullanılabilir. 
+Bu desenin çalışma prensibi şu şekildedir, öncelikle bir sorumluluk zinciri oluşturulur, bu sorumluluk zincirirnin her bir halkasının üzerine atanmış bir gelen isteği handle etme kapasitesi bulunmaktadır, gelen istekleri karşılayan ile handler bu isteği yerine getirecek yetki ve donanıma sahip değilse onu bir sonraki handler devir eder ve gelen istek handle edilene kadar sorumluluk zincirinde yukarıya doğru tırmanır. 

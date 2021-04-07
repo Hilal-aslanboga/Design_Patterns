@@ -1,0 +1,5 @@
+﻿
+Observer Pattern (Gözlemci Deseni)
+
+Bu desende var olan nesnenin uygulama içerisinde geçirdiği değişim gözlemlenir. Örneğin bir derginin durumu hakkında kullanıcıları bilgilendirme sayının bayilere ulaşıp ulaşmadığını takip etmek için kullanılabilir. Başka bir örnek vermek gerekirse e-ticaret sitelerinde ise kullanıcı tarafından bir ürünün takip altına alınması fiyatı düştüğünde haber verilmesi yada stok geldiğinde haber verilmesi vb durumlarda bu pattern tercih edilebilir.
+

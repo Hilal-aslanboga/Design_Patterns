@@ -1,0 +1,8 @@
+﻿
+Adapter Pattern (Adaptör Deseni)
+
+Bağdaştırıcı deseninin ele aldığı ana mantık uyumsuz arabirimlerden kurtulmaktır. Bir veya dafa fazla servi sağlayıcı kullanılması gereken bir order kodunuz  ve istemcisinin yapmak istediği tanımlanan servis sağlayıcısına eşleşmiyorsa bu desen kullanılarak uyumsuz arabirimden kurtulur.
+
+Örneğin dünya genelinde kullanılan değişik elektrik prizleri bulunmaktadır. Amerika birleşik devlertlerinde kullanılan elektrik prizleri 3 bacaklıdır. Avrupada ve türkiyede kullanılan yapı ise 2 bacaklıdır. Americadan alınan bir teknolojik cihazın bizim ülkede kullanılması için aradaki bu uyumsuz adaptörün kaldırılması yada bir aparat aracılığıyla ükemizdeki prizlere uyumlu hale getirilmeis gerekmektedir. 
+
+Bu pattern özellikle hazır kod bloklarından oluşan temel problem çerçevesinde bir araya gelmiş Framework'ler, kütüphaneler yahut 3rd kodlar için çok kullanışlıdır. Örneğin geçmiş yıllarda yazılmış bir yazılımın günümüze uyarlanmaıs için farklı arayüzler yani adaptörler kullanılarak günümüz şartlarına adapte olunur.

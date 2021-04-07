@@ -1,0 +1,8 @@
+﻿
+Singleton Pattern (Tekli Desen)
+
+Tasarım desenleri içerisinde neredeyse en çok kullanılan desen singletondır. Singleton deseninde esas amaç nesnenin her daim bir örneklemi oluşturulması ve bu örnklem üzerinden bütün işlemlerin yapılması. Biraz daha açarsak nesnenin kullanım süresi boyunca sadece bir kez oluşturulması ve bir daha oluşturulmaması üzerine kurulu bir mantığı bulunmaktadır.
+
+ Nesnenin kontrollü bir şekilde belirli bir şart veya şartlar doğruştusda üretilmesinide temin etmektedir. Başka bir mekanizmaya kontrolü bir şekilde geçmek istediğimde singleton tercih edebilirim. Bu kontrolü nasıl temin ettiğini düşünecek olursak, singleton ile üretilmiş desen sadece bir kez başlatıldığından ve tüm taleplerin ona uğrayacak olmasından dolayı isteklerin yönlendirilmesinde kullanılabilinir.
+
+ Singleton ile üretilen nesnenler, static sınıflar gibi RAM üzerinde yaşam alanları biriciktir. RAM'in heap alanında yaşarlar lakin server reset edilinceye kadar yaşarlar.Bu durumda bize memory maliyeti olarak geri döner.
