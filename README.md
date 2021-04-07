@@ -8,9 +8,17 @@ Yaratıcı tasarım kalıpları, duruma uygun bir şekilde nesneler yaratmaya ç
 
 ### [Builder](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/Builder)
 
+![Builder](https://user-images.githubusercontent.com/79503027/113909215-1b372780-97e0-11eb-8294-52f55f9daa9c.png)
+
+
 ### [Factory](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/FactoryMethod)
 
+![Factory](https://user-images.githubusercontent.com/79503027/113909244-21c59f00-97e0-11eb-98de-ffb475765891.png)
+
+
 ### [Singleton](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Creational_Patterns/Singleton)
+
+![Singleton](https://user-images.githubusercontent.com/79503027/113908748-8f250000-97df-11eb-8c6c-2d9858345fe6.png)
 
 ## Structural Patterns - Yapısal Desenler
 
@@ -18,9 +26,16 @@ Yapısal Tasarım Modelleri, varlıklar arasındaki ilişkileri gerçekleştirme
 
 ### [Adapter](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Structural_Patterns/Adapter)
 
+![Adapter](https://user-images.githubusercontent.com/79503027/113909269-29854380-97e0-11eb-998a-f7dc57c14b70.png)
+
+
 ### [Bridge](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Structural_Patterns/Bridge)
 
+![Bridge](https://user-images.githubusercontent.com/79503027/113909288-3013bb00-97e0-11eb-82c2-f9b3a80d727e.png)
+
 ### [Decorator](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Structural_Patterns/Decorator)
+
+![Decorator](https://user-images.githubusercontent.com/79503027/113909299-343fd880-97e0-11eb-8746-b91f33735b11.png)
 
 ## Behavioral Patterns - Davranış Desenler
 
@@ -28,6 +43,15 @@ Davranışsal tasarım kalıpları, nesneler arasındaki ortak iletişim kalıpl
 
 ### [ChainofResponsibility](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/ChainofResponsibility)
 
+![Chainofresponsibility](https://user-images.githubusercontent.com/79503027/113909359-41f55e00-97e0-11eb-89a5-0e50131f8c40.png)
+
+
 ### [Mediator](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/Mediator)
 
+![Mediator](https://user-images.githubusercontent.com/79503027/113909380-4752a880-97e0-11eb-8ad1-06da7b6fa2c8.png)
+
+
 ### [Observer](https://github.com/Hilal-aslanboga/Design_Patterns/tree/master/Behavioral_Patterns/Observer)
+
+![Observer](https://user-images.githubusercontent.com/79503027/113909389-4ae62f80-97e0-11eb-9124-5d782136288f.png)
+
